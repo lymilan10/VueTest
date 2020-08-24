@@ -4,16 +4,18 @@
     <father-a></father-a>
     <father-b></father-b>
     <father-c></father-c>
+    <next-tick></next-tick>
   </div>
 </template>
 <script>
 import FatherA from "./views/FatherA";
 import FatherB from "./views/FatherB"
 import FatherC from "./views/FatherC"
+import NextTick from "./components/NextTick"
 
 export default {
   components: {
-    FatherA,FatherB,FatherC
+    FatherA,FatherB,FatherC,NextTick
   },
 };
 </script>
